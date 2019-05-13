@@ -1,7 +1,7 @@
 #FROM node:latest
 FROM node:4.3.1
 
-MAINTAINER Isaia Spinelli <isaia.spinelli@heig-vd.ch>
+MAINTAINER Tommy Gerardi <tommy.gerardi@heig-vd.ch>
 
 # ../../app/Musician/src
 COPY src /opt/app/

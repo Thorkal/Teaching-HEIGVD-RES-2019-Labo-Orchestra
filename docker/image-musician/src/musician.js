@@ -19,7 +19,7 @@ const SOUNDS = {
 
 var instrument = process.argv[2];
 
-// Si l'instrument n'est pas definie
+// Si l'instrument n'est pas defini
 if(instrument === undefined){
     console.log("Error : instrument undefined.\nplease choose between : \n -> piano\n -> trumpet\n -> flute\n -> violin\n -> drum");
     process.exit(1);
