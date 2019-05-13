@@ -127,7 +127,7 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | What is **npm**?  |
 | | Le gestionnaire de paquets de Javascript (un peu come Maven) |
 |Question | What is the `npm install` command and what is the purpose of the `--save` flag?  |
-| | npm install installera un paquet, tandis que le --save l'ajoutera à la dépendance |
+| | npm install installera un paquet, tandis que le --save l'ajoutera aux dépendances |
 |Question | How can we use the `https://www.npmjs.com/` web site?  |
 | | Pour rechercher un paquet utile/de la documentation |
 |Question | In JavaScript, how can we **generate a UUID** compliant with RFC4122? |
@@ -145,11 +145,11 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | #  | Topic |
 | ---  | --- |
 |Question | How do we **define and build our own Docker image**?|
-| | Voir dockerFile et docker build |
+| | Voir dockerFile et docker build, qui permettent de définir et créer une image |
 |Question | How can we use the `ENTRYPOINT` statement in our Dockerfile?  |
 | | En utilisant la commande node pour lancer l'application |
 |Question | After building our Docker image, how do we use it to **run containers**?  |
-| | docker run  |
+| | docker run <nom de l'image> |
 |Question | How do we get the list of all **running containers**?  |
 | | docker ps  |
 |Question | How do we **stop/kill** one running container?  |
@@ -169,7 +169,7 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | How can we use the `Moment.js` npm module to help us with **date manipulations** and formatting?  |
 | | npm install moment --save |
 |Question | When and how do we **get rid of inactive players**?  |
-| | En vérifiant régulièrement (~1 seconde) que les syncs reçus ne dépassent pas 5 secondes |
+| | En vérifiant régulièrement (~1 seconde) que les sons reçus ne dépassent pas 5 secondes |
 |Question | How do I implement a **simple TCP server** in Node.js?  |
 | | net -> .createServer -> .listent -> fonction   OnClientConnected  |
 
