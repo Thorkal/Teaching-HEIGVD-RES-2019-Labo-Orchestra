@@ -33,23 +33,11 @@ function callbackFunctionToCallWhenNewClientHasArrived(socket) {
     socket.end();
 }
 
-
-//tous les musiciens qui sont en train de jouer, donc au moins un bruit reçu
-//si on reçoit durant une seconde, on l'enlève
 var mapMusician = new Map();
 
 function Activity(instrument, activeSince) {
     this.instrument = instrument;
     this.activeSince = activeSince;
-}
-
-function getInstrumentFromSound(sound) {
-    for(var key in protocol.PROTOCOL_SOUNDS) {
-        if(protocol.PROTOCOL_SOUNDS[key] === sound) {
-            var k = key;
-            return k;
-        }
-    }
 }
 
 function getTime() {
